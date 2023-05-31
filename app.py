@@ -38,3 +38,6 @@ def pred():
         return jsonify(val1)
     if request.method == 'GET':
         return "get!"
+    
+if __name__ == '__main__':
+    app.run()
